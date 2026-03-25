@@ -1,23 +1,11 @@
-
-
-import { useState } from 'react'
-import './App.css'
-import Button from './Button'
-
+import React from "react";
 
 function App() {
-
-const [display,setDisplay]=useState('')
-const buttonName="chamalka"
-
   return (
     <>
-    <h2>{display}</h2>
-    <Button countToDisplay={(count) => setDisplay(count)} buttonName={buttonName} />
-      
+      <div className="bg-red-500 text-white p-4">Tailwind is working!</div>
     </>
-  )
+  );
 }
 
-
-export default App
+export default App;
