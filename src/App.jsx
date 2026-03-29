@@ -1,10 +1,19 @@
 import React from "react";
+import Search from "./components/molecules/Search";
+import IconGroup from "./components/molecules/IconGroup";
+import Navbar from "./components/organisms/Navbar";
 
 function App() {
+
   return (
-    <>
-      <div className="bg-red-500 text-white p-4">Tailwind is working!</div>
-    </>
+    <div className="container py-5">
+
+<Navbar />
+
+
+    </div>
+
+
   );
 }
 
